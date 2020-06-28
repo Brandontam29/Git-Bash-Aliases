@@ -11,4 +11,4 @@ alias gb='git branch'
 
 
 alias e='code .'
-alias cpr='cd dDevProjects'
+alias cpr='cd /d/Dev/Projects'
