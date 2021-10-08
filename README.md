@@ -3,14 +3,21 @@ My custom git bash aliases to share across my machines.
 
 ### Aliases
 alias gd='git diff --color  sed s^color{#fff}{[^-+ ]}[−+ ]∗[-+ ]1  less -r'
+
 alias glog="git log --graph --pretty=format'%Cred%h%Creset %an %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+
 alias gs='git status -sb'
+
 alias ga='git add .'
+
 alias gcm='git commit -am'
+
 alias gl='git pull --prune'
+
 alias gp='git push origin HEAD'
 
 alias gco='git checkout'
+
 alias gb='git branch'
 
 alias e='code .'
